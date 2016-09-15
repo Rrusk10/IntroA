@@ -1,0 +1,19 @@
+<script>
+
+    //sqrt((x1 - x2)^2 + (y1 - y2)^2) 
+    function distance(xCoordinate1, xCoordinate2, yCoordinate1, yCoordinate2) {
+        var xCoords = (xCoordinate1 - xCoordinate2)^2;
+        var yCoords = (yCoordinate1 - yCoordinate2)^2;
+        var sum = xCoords + y Coords
+        var answer = Math.sqrt(sum) ;
+        console.log("The result is: " + answer); 
+    }    
+    
+    var prompt1 = ("Enter x1");
+    var prompt2 = ("Enter x2");
+    var prompt3 = ("Enter y1");
+    var prompt4 = ("Enter y2");
+    distance(prompt1, prompt2, prompt3, prompt4);
+
+
+</script>

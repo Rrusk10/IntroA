@@ -9,10 +9,10 @@
         console.log("The result is: " + answer); 
     }    
     
-    var prompt1 = ("Enter x1");
-    var prompt2 = ("Enter x2");
-    var prompt3 = ("Enter y1");
-    var prompt4 = ("Enter y2");
+    var parseInt(prompt1 = ("Enter x1"));
+    var parseInt(prompt2 = ("Enter x2"));
+    var parseInt(prompt3 = ("Enter y1"));
+    var parseInt(prompt4 = ("Enter y2"));
     distance(prompt1, prompt2, prompt3, prompt4);
 
 

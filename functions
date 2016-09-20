@@ -1,0 +1,17 @@
+<script>
+    function GasMileage(EndNo, Gallons, StartNo) {
+       var difference = (EndNo - StartNo);
+       var answer = (difference / Gallons);
+        console.log(answer + " miles per gallon.");
+        
+    
+        }; 
+    //call
+   
+
+    var GallonValue = prompt("Enter the amount of gas used.");
+    var StartingMileage = prompt("Enter the mileage you began with.");
+    var TotalMileage = prompt("Enter your ending mileage.");
+    GasMileage(StartingMileage, TotalMileage, GallonValue);
+    
+</script>

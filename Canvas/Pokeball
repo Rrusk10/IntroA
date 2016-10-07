@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="500" height="500"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var ctx = canvas.getContext('2d');
+   
+       
+      ctx.beginPath();
+      ctx.arc(250, 250, 100, 0, Math.PI, true);
+      ctx.closePath();
+      ctx.lineWidth = 5;
+      ctx.fillStyle = 'red';
+      ctx.fill();
+      ctx.strokeStyle = '##a21116';
+      ctx.stroke();
+        
+      ctx.beginPath();
+      ctx.arc(250, 250, 100, 0, Math.PI, false);
+      ctx.closePath();
+      ctx.lineWidth = 5;
+      ctx.fillStyle = 'white';
+      ctx.fill();
+      ctx.strokeStyle = '#550000';
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(250, 250, 25, 0, 2 * Math.PI, true);
+      ctx.fillStyle = 'white';
+      ctx.fill();
+      ctx.lineWidth = 3;
+      ctx.strokeStyle = '#550000';
+      ctx.stroke();
+         
+        ctx.beginPath();
+      ctx.arc(250, 250, 25, 0, 2 * Math.PI, true);
+      ctx.fillStyle = 'white';
+      ctx.fill();
+      ctx.lineWidth = 3;
+      ctx.strokeStyle = '#550000';
+      ctx.stroke();
+      ctx.endPath();
+      
+
+    </script>
+  </body>
+</html>     

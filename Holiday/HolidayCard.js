@@ -1,10 +1,10 @@
 
 var imageArray = [
     "https://www.what-dog.net/Images/faces2/scroll0015.jpg", 
-    "http://r.ddmcdn.com/s_f/o_1/cx_633/cy_0/cw_1725/ch_1725/w_720/APL/uploads/2014/11/too-cute-doggone-it-video-playlist.jpg",
+    "https://r.ddmcdn.com/s_f/o_1/cx_633/cy_0/cw_1725/ch_1725/w_720/APL/uploads/2014/11/too-cute-doggone-it-video-playlist.jpg",
     "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ5ruU23kzusycv7O8a6O3aM7I8vwRdjP8tvShgOnArkC9Cbyqe",
-    "http://wallpapers9.org/wp-content/uploads/2014/12/Christmas-Dog-Pictures-2.jpg",
-    "http://www.cutestpaw.com/wp-content/uploads/2013/12/dog-Christmas.jpg"
+    "https://wallpapers9.org/wp-content/uploads/2014/12/Christmas-Dog-Pictures-2.jpg",
+    "https://www.cutestpaw.com/wp-content/uploads/2013/12/dog-Christmas.jpg"
 ];
 var currentIndex = 0;
 
